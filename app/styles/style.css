@@ -20,7 +20,7 @@
 #scroll_content {
     position: relative;
     z-index: 10;
-    min-height: 1000px;
+    min-height: 1050px;
     width: 100%;
 }
 
@@ -30,19 +30,19 @@
     top: 50px;
 }
 
-.second {
+.second_benefit {
     margin-left: 600px;
 }
 
-.third {
+.third_benefit {
     margin-top: 25px;
 }
 
-.fourth {
+.fourth_benefit {
     margin-left: 640px;
 }
 
-.fifth {
+.fifth_benefit {
     margin-top: 30px;
 }
 
@@ -58,7 +58,7 @@ a {
 .articles h1 {
     font-size: 45px;
     color: #ffffff;
-    margin-top: 20px;
+    margin: 20px 0 15px 0;
 }
 
 h2 {
@@ -90,8 +90,9 @@ h2 {
     margin: 0 0 10px 0;
 }
 
-.articles ul li {
-    margin: 0 0 20px 0;
+footer {
+    margin-bottom: 29px;
+    font-size: 12px;
 }
 
 #mastfoot {
