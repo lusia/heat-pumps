@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Fanwood Text', serif;
 }
+
 #page {
     background: -webkit-linear-gradient(#0000FF, #000066);
     background: -o-linear-gradient(#0000FF, #000066);
@@ -12,7 +13,7 @@ body{
 }
 
 #content {
-    background-image: url("../images/house.jpg");
+    background-image: url("../images/house.png");
     background-repeat: no-repeat;
     background-size: 1000px;
     height: 1000px;
@@ -21,7 +22,7 @@ body{
 }
 
 #scroll_content {
-    position: relative;
+    position: fixed;
     z-index: 10;
     min-height: 1080px;
     width: 100%;
@@ -29,24 +30,27 @@ body{
 
 .middle_top {
     position: absolute;
-    left: 170px;
     top: 50px;
 }
 
+.first_benefit {
+    margin-left: 101px;
+}
+
 .second_benefit {
-    margin-left: 600px;
+    margin-left: 917px;
 }
 
 .third_benefit {
-    margin-top: 25px;
+    margin: 20px 0 0 127px;
 }
 
 .fourth_benefit {
-    margin-left: 640px;
+    margin: 25px 0 0 955px;
 }
 
 .fifth_benefit {
-    margin-top: 30px;
+    margin-left: 40px;
 }
 
 .benefit {
@@ -79,22 +83,20 @@ h2 {
     width: 100%;
     background-color: #000000;
     bottom: 0;
-    position: absolute;
-    top: 420px;
-    min-height: 450px;
+    position: fixed;
+    height: 150px;
     opacity: 0.8;
 }
 
-.articles {
-    margin: 0 200px 0 200px;
-    color: #ffffff;
-
+.middle_bottom div {
+    width: 1000px;
+    margin-left: auto;
+    margin-top: 60px;
 }
-
-.articles h3 {
-    font-size: 21px;
-    color: #ffffff;
-    margin: 0 0 10px 0;
+.verticalLine {
+    height: 5px;
+    border-right: 2px solid;
+    margin-left: 90px;
 }
 
 footer {
@@ -103,36 +105,41 @@ footer {
     color: #990000;
 }
 
+.list {
+    color: #ffffff;
+}
+
+.list li {
+    float: left;
+    margin-left: 180;
+    font-size: 25px;
+    width: 300px;
+}
+
+.list li a {
+    color: #ffffff;
+}
+.list li a:hover {
+    color: #990000;
+}
+
 #mastfoot {
     position: fixed;
     bottom: 0;
     color: #ffffff;
     z-index: 10;
-
 }
 
 #mastfoot a {
-    color: #ffffff;
+    color: grey;
 
 }
+
 #mastfoot a:hover {
     color: #990000;
 }
 
-.comments {
-    width: 100%;
-    background-color: #000000;
-    bottom: 0;
-    position: absolute;
-    height: 100%;
-    opacity: 0.7;
-}
-
-.comments h1 {
-    color: white;
-}
-
-.comments div {
-    width: 1024px;
-    margin: 65px auto 0 auto;
+#mastfoot span {
+    color: grey;
+    font-size: 15px;
 }

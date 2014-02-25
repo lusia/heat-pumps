@@ -1,0 +1,1 @@
+"use strict";var app=angular.module("heatPumpsApp",["ngRoute"]);app.config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]);var app=angular.module("heatPumpsApp");app.controller("MainCtrl",["$scope","$interval",function(a,b){var c=function(){a.time=(new Date).getTime()};b(c,1e3),c()}]);
